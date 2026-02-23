@@ -9,7 +9,7 @@ public class GymProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GymProjectApplication.class, args);
 
-        System.out.println("GymApp v0.01 Started");
+        System.out.println("GymApp v0.02 Started");
 	}
 
 
