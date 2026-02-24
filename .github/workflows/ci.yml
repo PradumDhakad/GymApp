@@ -37,3 +37,7 @@ jobs:
         with:
           name: gymapp-jar
           path: GMS/target/*.jar
+
+      - name: Build Docker Image
+        run: docker build -t gymapp:latest .
+        working-directory: ./GMS
