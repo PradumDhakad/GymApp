@@ -41,3 +41,5 @@ jobs:
 
       - name: Push Docker Image
         run: docker push pradumdhakad/gymapp:latest
+
+
